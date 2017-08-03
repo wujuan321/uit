@@ -1,0 +1,581 @@
+2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: body】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: body】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: navbar】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: navbar】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: username】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_11_46_14_login] ,截图失败，原因：null
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: body】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: body】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: navbar】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: navbar】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: username】失败
+ 2017-08-01 11:46:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_11_46_14_login] ,截图失败，原因：null
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: navbar】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: navbar】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: username】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_11_53_12_login] ,截图失败，原因：null
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: body】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: body】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: navbar】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 切入frame【By.name: navbar】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: username】失败
+ 2017-08-01 11:53:12 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_11_53_12_login] ,截图失败，原因：null
+ 2017-08-01 12:11:24 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.id: J-login-btn】失败
+ 2017-08-01 12:11:24 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_12_11_24_login] ,截图失败，原因：null
+ 2017-08-01 12:17:58 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.id: J-login-btn】失败
+ 2017-08-01 12:17:58 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_12_17_58_login] ,截图失败，原因：null
+ 2017-08-01 13:11:09 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: logonId】失败
+ 2017-08-01 13:11:09 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_13_11_09_login] ,截图失败，原因：null
+ 2017-08-01 13:11:58 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: logonId】失败
+ 2017-08-01 13:11:58 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_13_11_58_login] ,截图失败，原因：null
+ 2017-08-01 15:44:43 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:43 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_43_login] ,截图失败，原因：null
+ 2017-08-01 15:44:50 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:50 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_50_login] ,截图失败，原因：null
+ 2017-08-01 15:44:50 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:50 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_50_login] ,截图失败，原因：null
+ 2017-08-01 15:44:50 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:50 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_50_login] ,截图失败，原因：null
+ 2017-08-01 15:44:50 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:50 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_50_login] ,截图失败，原因：null
+ 2017-08-01 15:44:50 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:50 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_50_login] ,截图失败，原因：null
+ 2017-08-01 15:44:50 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 15:44:50 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_44_50_login] ,截图失败，原因：null
+ 2017-08-01 15:49:09 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 预期的文字是 【此用户不存在!】 ，实际结果 【密码错误!】
+ 2017-08-01 15:49:09 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_49_09_login] ,截图失败，原因：null
+ 2017-08-01 15:50:53 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 预期的文字是 【此用户不存在!】 ，实际结果 【密码错误!】
+ 2017-08-01 15:50:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_50_53_login] ,截图失败，原因：null
+ 2017-08-01 15:54:00 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR] 预期的文字是 【此用户不存在!】 ，实际结果 【密码错误!】
+ 2017-08-01 15:54:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_15_54_00_login] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:40:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_40_40_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:41:08 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_41_08_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:13 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.xpath: (//input[@name='draw'])[2]】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:25 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_25_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:26 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_26_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:26 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_26_bet] ,截图失败，原因：null
+ 2017-08-01 16:42:26 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:42:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_42_26_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.cssSelector: bnt_bet】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:17 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:49:18 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:49:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_49_18_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.DriverUtils]-[ERROR] 启动浏览器异常,异常信息：
+ org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63.03 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'wujuan-PC', ip: '192.168.8.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+	at com.blueway.test.uit.utils.DriverUtils.InitBrowser(DriverUtils.java:43)
+	at com.blueway.test.uit.utils.SeleniumUtils.openBrowser(SeleniumUtils.java:19)
+	at com.blueway.test.uit.base.BaseParpare.startTest(BaseParpare.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:50:04 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:50:04 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_50_04_bet] ,截图失败，原因：null
+ 2017-08-01 16:51:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.cssSelector: bnt_bet】失败
+ 2017-08-01 16:54:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_17_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:54:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:54:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_54_20_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:55:28 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 16:55:28 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_55_28_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 16:57:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_16_57_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:03:53 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_03_53_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:00 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:05:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:11 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_11_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:17 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_17_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:18 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_18_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:19 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_19_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:21 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_21_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:21 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_21_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:25 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_25_bet] ,截图失败，原因：null
+ 2017-08-01 17:05:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_05_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:11:57 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_11_57_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:14:27 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_14_27_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:17:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_17_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:20:00 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_20_00_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:51 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:22:51 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_51_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:22:52 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_22_52_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:23:40 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_23_40_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:26:26 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_26_26_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:14 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_14_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:28:15 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_28_15_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:29:42 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_29_42_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:30:49 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_30_49_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:31:05 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_31_05_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:32:41 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_32_41_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:35:45 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_35_45_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:37:35 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_37_35_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:38:39 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_38_39_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:39:20 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_39_20_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.utils.SeleniumUtils]-[ERROR]  查找 元素【By.name: userid】失败
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 2017-08-01 17:41:30 [com.blueway.test.uit.plugins.TestResultListener]-[ERROR] [2017_08_01_17_41_30_bet] ,截图失败，原因：null
+ 
