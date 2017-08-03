@@ -20,7 +20,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.5</version>
-			<scope>test</scope>
+<!-- 			<scope>test</scope> -->
 		</dependency>
 		<!-- selenium-java -->
 		<dependency>
@@ -122,7 +122,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
