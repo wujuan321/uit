@@ -2,14 +2,11 @@ package com.blueway.ekor.uit.utils;
 
 import java.util.Properties;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
  * 初始化浏览器
@@ -27,29 +24,26 @@ public class DriverUtils {
 
 		/** 声明好驱动的路径 */
 		String driverPath = "config/config.properties";
-		String chromedriver_win = PropertiesUtils.getValue(driverPath,
-				"chromedriver_win");
-		String chromedriver_linux = PropertiesUtils.getValue(driverPath,
-				"chromedriver_linux");
+		String chromedriver_win = PropertiesUtils.getValue(driverPath, "chromedriver_win");
+		String chromedriver_linux = PropertiesUtils.getValue(driverPath, "chromedriver_linux");
 		String iedriver = PropertiesUtils.getValue(driverPath, "iedriver");
 		try {
 
 			if (os.toLowerCase().contains("win")) {
 				if (browser.equalsIgnoreCase("chrome")) {
-					System.setProperty("webdriver.chrome.driver",
-							chromedriver_win);
+					System.setProperty("webdriver.chrome.driver", chromedriver_win);
 					ChromeOptions options = new ChromeOptions();
 					driver = new ChromeDriver(options);
 				} else if (browser.equalsIgnoreCase("ie")) {
 					System.setProperty("webdriver.ie.driver", iedriver);
-					DesiredCapabilities ieCapabilities = DesiredCapabilities
-							.internetExplorer();
-					ieCapabilities
-							.setCapability(
-									InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
-									true);
-					// 返回ie浏览器对象
-					driver = new InternetExplorerDriver(ieCapabilities);
+					// DesiredCapabilities ieCapabilities = DesiredCapabilities
+					// .internetExplorer();
+					// ieCapabilities
+					// .setCapability(
+					// InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
+					// true);
+					// 返回ie浏览器对象ieCapabilities
+					driver = new InternetExplorerDriver();
 				} else if (browser.equalsIgnoreCase("firefox")) {
 					driver = new FirefoxDriver();
 				} else {
@@ -57,19 +51,17 @@ public class DriverUtils {
 				}
 			} else if (os.toLowerCase().contains("linux")) {
 				if (browser.equalsIgnoreCase("chrome")) {
-					System.setProperty("webdriver.chrome.driver",
-							chromedriver_linux);
+					System.setProperty("webdriver.chrome.driver", chromedriver_linux);
 					driver = new ChromeDriver();
 				} else if (browser.equalsIgnoreCase("ie")) {
 					System.setProperty("webdriver.ie.driver", iedriver);
-					DesiredCapabilities ieCapabilities = DesiredCapabilities
-							.internetExplorer();
-					ieCapabilities
-							.setCapability(
-									InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
-									true);
-					// 返回ie浏览器对象
-					driver = new InternetExplorerDriver(ieCapabilities);
+					// DesiredCapabilities ieCapabilities =
+					// DesiredCapabilities.internetExplorer();
+					// ieCapabilities.setCapability(
+					// InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
+					// true);
+					// 返回ie浏览器对象ieCapabilities
+					driver = new InternetExplorerDriver();
 				} else if (browser.equalsIgnoreCase("firefox")) {
 					driver = new FirefoxDriver();
 				} else {
@@ -85,27 +77,23 @@ public class DriverUtils {
 
 	public static void main(String[] args) {
 		WebDriver driver = null;
-		try {
-			String driverPath = "config/config.properties";
-			String iedriver = PropertiesUtils.getValue(driverPath,
-					"chromedriver_win");
-			System.setProperty("webdriver.chrome.driver", iedriver);
-			driver = new ChromeDriver();
-			driver.get("http://127.0.0.1:1080/WebTours/");
-			WebElement body = driver.findElement(By.name("body"));
-			driver.switchTo().frame(body);
-			WebElement frame = driver.findElement(By.name("navbar"));
-			driver.switchTo().frame(frame);
-			driver.findElement(By.name("username")).sendKeys("wujuan");
-
-			try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			driver.quit();
-		} catch (Exception e) {
-			driver.quit();
-		}
+		driver = new FirefoxDriver();
+		// try {
+		// String driverPath = "config/config.properties";
+		// String iedriver = PropertiesUtils.getValue(driverPath,
+		// "chromedriver_win");
+		// System.setProperty("webdriver.chrome.driver", iedriver);
+		// driver = new ChromeDriver();
+		// driver.get("https://www.baid.com");
+		//
+		// try {
+		// Thread.sleep(3000);
+		// } catch (InterruptedException e) {
+		// e.printStackTrace();
+		// }
+		// driver.quit();
+		// } catch (Exception e) {
+		// driver.quit();
+		// }
 	}
 }

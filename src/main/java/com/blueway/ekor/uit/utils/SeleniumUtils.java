@@ -10,12 +10,13 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import sun.security.ec.ECDHKeyAgreement;
 
 public class SeleniumUtils {
 	public WebDriver driver = null;
@@ -24,8 +25,7 @@ public class SeleniumUtils {
 	// 启动浏览器关打开页面
 	public void openBrowser(String browserName, String webUrl, int timeOut) {
 		driver = DriverUtils.InitBrowser(browserName);
-		wait = new WebDriverWait(driver, Property.TIMEOUT_INTERVAL,
-				Property.POLLING_INTERVAL);
+		wait = new WebDriverWait(driver, Property.TIMEOUT_INTERVAL, Property.POLLING_INTERVAL);
 		// TestResultListener.driver = driver;
 		LoggerUtils.info("打开【" + browserName + "】浏览器");
 		try {
@@ -52,8 +52,7 @@ public class SeleniumUtils {
 
 	// 等待页面加载
 	public void WaitForPageToLoading(int pageLoadTime) {
-		driver.manage().timeouts()
-				.pageLoadTimeout(pageLoadTime, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(pageLoadTime, TimeUnit.SECONDS);
 		LoggerUtils.info("等待页面加载……");
 	}
 
@@ -61,8 +60,14 @@ public class SeleniumUtils {
 		WebElement element = null;
 
 		try {
-			element = wait.until(ExpectedConditions
-					.presenceOfElementLocated(by));
+			// element = wait.until(ExpectedConditions
+			// .presenceOfElementLocated(by));
+			element = wait.until(new ExpectedCondition<WebElement>() {
+				@Override
+				public WebElement apply(WebDriver d) {
+					return d.findElement(by);
+				}
+			});
 		} catch (Exception e) {
 			LoggerUtils.error(" 查找 元素【" + by + "】失败");
 		}
@@ -70,7 +75,9 @@ public class SeleniumUtils {
 	}
 
 	public void type(By by, String text) {
-		findElementBy(by).sendKeys(text);
+
+		WebElement element = findElementBy(by);
+		element.sendKeys(text);
 
 	}
 
@@ -115,8 +122,7 @@ public class SeleniumUtils {
 	}
 
 	public void selectByVisibleText(final By by, final String text) {
-		LoggerUtils
-				.debug("Try to select text " + text + " on " + by.toString());
+		LoggerUtils.debug("Try to select text " + text + " on " + by.toString());
 		new Select(findElementBy(by)).selectByVisibleText(text);
 	}
 
@@ -149,21 +155,19 @@ public class SeleniumUtils {
 		driver.switchTo().defaultContent();
 	}
 
-	public void onActions(By by) {
-
-		Actions action = new Actions(driver);
-		action.moveToElement(findElementBy(by)).click().perform();
-	}
+	// public void onActions(By by) {
+	// Actions action = new Actions(driver);
+	// action.moveToElement(findElementBy(by)).click().perform();
+	// }
 
 	/**
 	 * 判断文本是不是和需求要求的文本一致
-	 * **/
+	 **/
 	public void isTextCorrect(String actual, String expected) {
 		try {
 			Assert.assertEquals(actual, expected);
 		} catch (AssertionError e) {
-			LoggerUtils.error("预期的文字是 【" + expected + "】 ，实际结果 【" + actual
-					+ "】");
+			LoggerUtils.error("预期的文字是 【" + expected + "】 ，实际结果 【" + actual + "】");
 			Assert.fail("预期的文字是 【" + expected + "】 ，实际结果 【" + actual + "】");
 
 		}
@@ -177,14 +181,12 @@ public class SeleniumUtils {
 	private void waitDocumentReady() {
 		final long t = System.currentTimeMillis();
 		try {
-			wait.until(new ExpectedCondition<Boolean>() {
+			wait.until(new ExpectedCondition<Boolean>() {	
 				public Boolean apply(WebDriver driver) {
 					if (System.currentTimeMillis() - t > Property.TIMEOUT_DOCUMENT_COMPLETE * 100)
-						throw new TimeoutException("Timed out after "
-								+ Property.TIMEOUT_DOCUMENT_COMPLETE
+						throw new TimeoutException("Timed out after " + Property.TIMEOUT_DOCUMENT_COMPLETE
 								+ " seconds waiting for document to be ready");
-					return ((JavascriptExecutor) driver).executeScript(
-							"return document.readyState").equals("complete");
+					return ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
 				}
 			});
 		} catch (WebDriverException e) {
@@ -204,9 +206,14 @@ public class SeleniumUtils {
 
 			@Override
 			public Boolean apply(WebDriver d) {
-				return !(d.findElement(by).isDisplayed());
+				if (d.findElement(by).isDisplayed()) {
+					return false;
+				} else {
+					return true;
+				}
 			}
 		});
+
 		return flag;
 	}
 }

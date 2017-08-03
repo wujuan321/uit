@@ -37,9 +37,7 @@ public final class BetPage extends HomePage implements IBetPage {
 			throws InterruptedException {
 		// chooseUser(user);
 		// 如果投注等待条是显示的，則等待
-		if (driver.isDisplay(DIV_BET_WAIT)) {
-			Thread.sleep(3000);
-		}
+		driver.waitForDisplayed(DIV_BET_WAIT);
 		chooseType(type);
 		if (type.equals("3D") || type.equals("4D"))
 			chooseDraw(draw);

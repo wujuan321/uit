@@ -85,7 +85,7 @@ public class CustomReportListener extends CustomReporterListenerAdapter {
 	 * @param suites
 	 */
 	public void generateSuiteSummaryReport(List<ISuite> suites) {
-		m_out.println("<div class=\"col-md-7\">");
+		m_out.println("<div class=\"col-md-12\">");
 		m_out.println("<table class=\"table table-bordered\">");
 		m_out.println("<tbody><tr><th>Counts</th><th># Passed</th><th># failed</th><th># skipped</th><th>Start Time</th><th>End Time</th></tr>");
 		m_out.println("<tr>");
@@ -120,7 +120,7 @@ public class CustomReportListener extends CustomReporterListenerAdapter {
 	 * @param suites
 	 */
 	protected void generateMethodDetailReport(List<ISuite> suites) {
-		m_out.println("<div class=\"col-md-8\"><h2 class=\"sub-header\">Detail Result</h2><table class=\"table table-striped\">"
+		m_out.println("<div class=\"col-md-12\"><h2 class=\"sub-header\">Detail Result</h2><table class=\"table table-striped\">"
 				+ "<thead><tr><th>#</th><th>CaseID</th><th>Case Name</th><th>Class Name</th><th>Method Name</th><th>Status</th><th>Time(ms)</th><th>Detail</th></tr></thead><tbody>");
 		int index = 1;
 		for (ISuite suite : suites) {

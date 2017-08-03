@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
-  <parameter name="testurl" value="http://192.168.8.34:8080/4d_width"/>
-  <parameter name="timeOut" value="20"/>
   <parameter name="browserName" value="chrome"/>
   <parameter name="sleepTime" value="800"/>
+  <parameter name="testurl" value="http://192.168.8.34:8080/4d_width"/>
   <parameter name="waitMillisecondsForAlert" value="40000"/>
+  <parameter name="timeOut" value="20"/>
   <listeners>
     <listener class-name="com.blueway.ekor.uit.plugins.CustomReportListener"/>
     <listener class-name="com.blueway.ekor.uit.plugins.RetryListener"/>
@@ -15,10 +15,9 @@
     <classes>
       <class name="com.blueway.ekor.uit.testcase.bet.Bet_001">
         <methods>
-          <include name="bet" invocation-numbers="7"/>
-          <include name="endTest"/>
-          <include name="startTest"/>
           <include name="login"/>
+          <include name="startTest"/>
+          <include name="bet"/>
         </methods>
       </class> <!-- com.blueway.ekor.uit.testcase.bet.Bet_001 -->
     </classes>

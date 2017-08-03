@@ -31,7 +31,6 @@ import org.testng.collections.Lists;
 import org.testng.internal.Utils;
 import org.testng.xml.XmlSuite;
 
-
 import com.blueway.ekor.uit.utils.LoggerUtils;
 import com.blueway.ekor.uit.utils.PropertiesUtils;
 import com.thoughtworks.qdox.JavaDocBuilder;

@@ -1,255 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="16" passed="15">
+<testng-results skipped="0" failed="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60943" started-at="2017-08-02T09:23:13Z" finished-at="2017-08-02T09:24:14Z">
+  <suite name="Suite" duration-ms="27558" started-at="2017-08-03T07:10:51Z" finished-at="2017-08-03T07:11:19Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="60943" started-at="2017-08-02T09:23:13Z" finished-at="2017-08-02T09:24:14Z">
+    <test name="Login" duration-ms="27558" started-at="2017-08-03T07:10:51Z" finished-at="2017-08-03T07:11:19Z">
       <class name="com.blueway.ekor.uit.testcase.bet.Bet_001">
-        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="startTest" is-config="true" duration-ms="6635" started-at="2017-08-02T17:23:13Z" finished-at="2017-08-02T17:23:20Z">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="startTest" is-config="true" duration-ms="6023" started-at="2017-08-03T15:10:51Z" finished-at="2017-08-03T15:10:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30fe64c3]]>
+                <![CDATA[org.testng.TestRunner@30b19518]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="login" duration-ms="860" started-at="2017-08-02T17:23:20Z" finished-at="2017-08-02T17:23:21Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="login" duration-ms="933" started-at="2017-08-03T15:10:57Z" finished-at="2017-08-03T15:10:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="1189" started-at="2017-08-02T17:23:21Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:22Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1168" started-at="2017-08-03T15:10:58Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注4D, BIG=0.1, TYPE=4D, DRAW=MKTS, CASEID=T001, NUMBER=1004, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D, TYPE=4D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3695" started-at="2017-08-02T17:23:22Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:26Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="801" started-at="2017-08-03T15:11:00Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0, SMALL=0.1, CASENAME=成功投注3D, BIG=0.1, TYPE=3D, DRAW=MKTS, CASEID=T002, NUMBER=103, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D, TYPE=3D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3548" started-at="2017-08-02T17:23:26Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:29Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="638" started-at="2017-08-03T15:11:00Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T5, BIG=0.1, TYPE=T5, DRAW=T5, CASEID=T003, NUMBER=10005, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10011001, CASENAME=成功投注T5, TYPE=T5, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3564" started-at="2017-08-02T17:23:29Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:33Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="666" started-at="2017-08-03T15:11:01Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T6, BIG=0.1, TYPE=T6, DRAW=T6, CASEID=T004, NUMBER=100006, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=10011001, CASENAME=成功投注T6, TYPE=T6, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3857" started-at="2017-08-02T17:23:33Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:37Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1035" started-at="2017-08-03T15:11:02Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注4D_R, BIG=0.1, TYPE=4D, DRAW=MKTS, CASEID=T005, NUMBER=1001R, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_R, TYPE=4D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3749" started-at="2017-08-02T17:23:37Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:40Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1053" started-at="2017-08-03T15:11:03Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注4D_X, BIG=0.1, TYPE=4D, DRAW=MKTS, CASEID=T006, NUMBER=100X, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_X, TYPE=4D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3726" started-at="2017-08-02T17:23:40Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:44Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1152" started-at="2017-08-03T15:11:04Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注4D_XX, BIG=0.1, TYPE=4D, DRAW=MKTS, CASEID=T007, NUMBER=10XX, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_XX, TYPE=4D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="FAIL" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3381" started-at="2017-08-02T17:23:44Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:47Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="6175" started-at="2017-08-03T15:11:05Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注4D_B, BIG=0.1, TYPE=4D, DRAW=MKTS, CASEID=T008, NUMBER=1001B, DRAWDATE=08/01/2017, USER=10011001}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <button id="B">...</button> is not clickable at point (346, 162). Other element would receive the click: <div class="tip_bg"></div>
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57 milliseconds
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'wujuan-PC', ip: '192.168.8.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_17'
-Session ID: d56e92857c9601f2c4eb2e4b5f2053f1
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\wujuan\AppData\Local\Temp\scoped_dir8296_30016, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=60.0.3112.78, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button id="B">...</button> is not clickable at point (346, 162). Other element would receive the click: <div class="tip_bg"></div>
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57 milliseconds
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'wujuan-PC', ip: '192.168.8.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_17'
-Session ID: d56e92857c9601f2c4eb2e4b5f2053f1
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\wujuan\AppData\Local\Temp\scoped_dir8296_30016, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=60.0.3112.78, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.blueway.ekor.uit.utils.SeleniumUtils.click(SeleniumUtils.java:78)
-	at com.blueway.ekor.uit.pages.impl.BetPage.inputNo(BetPage.java:135)
-	at com.blueway.ekor.uit.pages.impl.BetPage.bet(BetPage.java:46)
-	at com.blueway.ekor.uit.testcase.bet.Bet_001.bet(Bet_001.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3876" started-at="2017-08-02T17:23:47Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注3D_R, BIG=0.1, TYPE=3D, DRAW=MKTS, CASEID=T009, NUMBER=1003R, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_B, TYPE=4D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3567" started-at="2017-08-02T17:23:51Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:55Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="881" started-at="2017-08-03T15:11:11Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注3D_X, BIG=0.1, TYPE=3D, DRAW=MKTS, CASEID=T010, NUMBER=10X, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D_R, TYPE=3D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3512" started-at="2017-08-02T17:23:55Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:23:58Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="937" started-at="2017-08-03T15:11:12Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T5_X, BIG=0.1, TYPE=T5, DRAW=T5, CASEID=T011, NUMBER=1000X, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D_X, TYPE=3D, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3420" started-at="2017-08-02T17:23:58Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:24:02Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1018" started-at="2017-08-03T15:11:13Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T5_XX, BIG=0.1, TYPE=T5, DRAW=T5, CASEID=T012, NUMBER=100XX, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10011001, CASENAME=成功投注T5_X, TYPE=T5, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3696" started-at="2017-08-02T17:24:02Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:24:06Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="535" started-at="2017-08-03T15:11:14Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T5_B, BIG=0.1, TYPE=T5, DRAW=T5, CASEID=T013, NUMBER=10005B, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10011001, CASENAME=成功投注T5_XX, TYPE=T5, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3616" started-at="2017-08-02T17:24:06Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:24:09Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1607" started-at="2017-08-03T15:11:14Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T6_X, BIG=0.1, TYPE=T6, DRAW=T6, CASEID=T014, NUMBER=10000X, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=10011001, CASENAME=成功投注T5_B, TYPE=T5, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="bet" duration-ms="3442" started-at="2017-08-02T17:24:09Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-02T17:24:13Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="584" started-at="2017-08-03T15:11:16Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EXP_RESULT=success, ISJP=Y, A=0.1, SMALL=0.1, CASENAME=成功投注T6_XX, BIG=0.1, TYPE=T6, DRAW=T6, CASEID=T015, NUMBER=1000XX, DRAWDATE=08/01/2017, USER=10011001}]]>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=10011001, CASENAME=成功投注T6_X, TYPE=T6, EXP_RESULT=success}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bet -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@22491a97]" name="endTest" is-config="true" duration-ms="1392" started-at="2017-08-02T17:24:13Z" finished-at="2017-08-02T17:24:14Z">
+        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="680" started-at="2017-08-03T15:11:17Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=10011001, CASENAME=成功投注T6_XX, TYPE=T6, EXP_RESULT=success}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bet -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="endTest" is-config="true" duration-ms="1476" started-at="2017-08-03T15:11:17Z" finished-at="2017-08-03T15:11:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
