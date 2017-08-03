@@ -20,7 +20,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.5</version>
-<!-- 			<scope>test</scope> -->
+<!-- 			<scope>test</scope> 这玩意可以导致maven install失败，报找不到org.testng程序包-->
 		</dependency>
 		<!-- selenium-java -->
 		<dependency>
