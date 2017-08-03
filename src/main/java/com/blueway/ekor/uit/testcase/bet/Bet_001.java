@@ -23,9 +23,9 @@ public class Bet_001 extends BaseParpare {
 
 	@Test(dataProvider = "testData", dependsOnMethods = { "login" })
 	public void bet(Map<String, String> data) throws InterruptedException {
-		BetPage.bet(data.get("USER"), data.get("DRAWDATE"), data.get("TYPE"),
-				data.get("DRAW"), data.get("NUMBER"), data.get("BIG"),
-				data.get("SMALL"), data.get("A"));
+		BetPage.bet(data.get("USER"), data.get("DRAWDATE"), data.get("TYPE"), data.get("DRAW"), data.get("NUMBER"),
+				data.get("BIG"), data.get("SMALL"), data.get("A"));
+		LoggerUtils.info("sucess");
 
 	}
 
