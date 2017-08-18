@@ -5,21 +5,27 @@
   <parameter name="sleepTime" value="800"/>
   <parameter name="testurl" value="http://192.168.8.34:8080/4d_width"/>
   <parameter name="waitMillisecondsForAlert" value="40000"/>
+  <parameter name="device" value="web"/>
   <parameter name="timeOut" value="20"/>
   <listeners>
     <listener class-name="com.blueway.ekor.uit.plugins.CustomReportListener"/>
     <listener class-name="com.blueway.ekor.uit.plugins.RetryListener"/>
-    <listener class-name="com.blueway.ekor.uit.plugins.PowerEmailableReporter"/>
   </listeners>
   <test name="Login(failed)" parallel="none">
     <classes>
-      <class name="com.blueway.ekor.uit.testcase.bet.Bet_001">
+      <class name="com.blueway.ekor.uit.testcase.login.Login_001">
         <methods>
-          <include name="login"/>
+          <include name="endTest"/>
           <include name="startTest"/>
-          <include name="bet"/>
         </methods>
-      </class> <!-- com.blueway.ekor.uit.testcase.bet.Bet_001 -->
+      </class> <!-- com.blueway.ekor.uit.testcase.login.Login_001 -->
+      <class name="com.blueway.ekor.uit.testcase.login.Login_002">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="login" invocation-numbers="0 0 0 0 1 2 3"/>
+        </methods>
+      </class> <!-- com.blueway.ekor.uit.testcase.login.Login_002 -->
     </classes>
   </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

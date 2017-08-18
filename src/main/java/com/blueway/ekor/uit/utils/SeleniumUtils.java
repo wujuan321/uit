@@ -10,30 +10,45 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import sun.security.ec.ECDHKeyAgreement;
+import com.blueway.ekor.uit.driverImpl.AndriodDriverImpl;
+import com.blueway.ekor.uit.driverImpl.ChromeDriverImpl;
+import com.blueway.ekor.uit.driverImpl.FirefoxDriverImpl;
+import com.blueway.ekor.uit.driverImpl.IEDriverImpl;
 
 public class SeleniumUtils {
 	public WebDriver driver = null;
 	private WebDriverWait wait = null;
 
 	// 启动浏览器关打开页面
-	public void openBrowser(String browserName, String webUrl, int timeOut) {
-		driver = DriverUtils.InitBrowser(browserName);
+	public SeleniumUtils(String deviceOrBrowser, String webUrl, int timeOut) {
+		String status = "";
+		if (deviceOrBrowser.equalsIgnoreCase("andriod")) {
+			status = "andriod";
+			driver = new AndriodDriverImpl().instanceDriver(deviceOrBrowser);
+		} else if (deviceOrBrowser.equalsIgnoreCase("ios")) {
+			status = "ios";
+
+		} else {
+			status = "web";
+			if (deviceOrBrowser.equalsIgnoreCase("chrome")) {
+				driver = new ChromeDriverImpl().instanceDriver(deviceOrBrowser);
+			} else if (deviceOrBrowser.equalsIgnoreCase("ie")) {
+				driver = new IEDriverImpl().instanceDriver(deviceOrBrowser);
+			} else if (deviceOrBrowser.equalsIgnoreCase("firefox")) {
+				driver = new FirefoxDriverImpl().instanceDriver(deviceOrBrowser);
+			}
+
+		}
 		wait = new WebDriverWait(driver, Property.TIMEOUT_INTERVAL, Property.POLLING_INTERVAL);
-		// TestResultListener.driver = driver;
-		LoggerUtils.info("打开【" + browserName + "】浏览器");
-		try {
+		if (status == "web") {
 			maxWindow();
 			WaitForPageToLoading(timeOut);
 			get(webUrl);
-		} catch (Exception e) {
-
 		}
 	}
 
@@ -117,6 +132,7 @@ public class SeleniumUtils {
 			driver.findElement(by);
 			flag = true;
 		} catch (NoSuchElementException | StaleElementReferenceException e) {
+			flag = false;
 		}
 		return flag;
 	}
@@ -153,6 +169,7 @@ public class SeleniumUtils {
 	/** 跳出frame */
 	public void outFrame() {
 		driver.switchTo().defaultContent();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	// public void onActions(By by) {
@@ -181,7 +198,7 @@ public class SeleniumUtils {
 	private void waitDocumentReady() {
 		final long t = System.currentTimeMillis();
 		try {
-			wait.until(new ExpectedCondition<Boolean>() {	
+			wait.until(new ExpectedCondition<Boolean>() {
 				public Boolean apply(WebDriver driver) {
 					if (System.currentTimeMillis() - t > Property.TIMEOUT_DOCUMENT_COMPLETE * 100)
 						throw new TimeoutException("Timed out after " + Property.TIMEOUT_DOCUMENT_COMPLETE
@@ -216,4 +233,5 @@ public class SeleniumUtils {
 
 		return flag;
 	}
+
 }

@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="none">
+	<parameter name="device" value="web" />
 	<parameter name="browserName" value="chrome" />
 	<parameter name="testurl" value="http://192.168.8.34:8080/4d_width" />
 	<parameter name="sleepTime" value="800" />
-	<!-- 页面元素10秒不出现超时时间 -->
+	<!-- 页面元素20秒不出现超时时间 -->
 	<parameter name="timeOut" value="20" />
 	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
 	<parameter name="waitMillisecondsForAlert" value="40000" />
 
 	<test name="Login" preserve-order="true">
 		<packages>
-			<package name="com.blueway.ekor.uit.testcase.bet" />
+			<package name="com.blueway.ekor.uit.testcase.login" />
 		</packages>
 	</test>
 	<listeners>
 		<listener class-name="com.blueway.ekor.uit.plugins.CustomReportListener" />
 		<listener class-name="com.blueway.ekor.uit.plugins.RetryListener" />
-		<listener class-name="com.blueway.ekor.uit.plugins.PowerEmailableReporter" />
+		<!-- <listener class-name="com.blueway.ekor.uit.plugins.PowerEmailableReporter" 
+			/> -->
 	</listeners>
 </suite> <!-- Suite -->
 

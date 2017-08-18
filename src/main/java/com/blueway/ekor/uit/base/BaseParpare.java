@@ -27,18 +27,19 @@ public class BaseParpare {
 
 	@BeforeClass
 	public void startTest(ITestContext context) {
-		System.out.println("我进来了");
-
 		this.testContext = context;
-		String browserName = context.getCurrentXmlTest().getParameter("browserName");
-		driver = new SeleniumUtils();
+		String device = context.getCurrentXmlTest().getParameter("device");
+		String browserOrDevice = "";
+		if (device.equalsIgnoreCase("andriod") || device.equalsIgnoreCase("ios")) {
+			browserOrDevice = device;
+		} else {
+			browserOrDevice = context.getCurrentXmlTest().getParameter("browserName");
+		}
+		webUrl = context.getCurrentXmlTest().getParameter("testurl");
+
 		timeOut = Integer.parseInt(context.getCurrentXmlTest().getParameter("timeOut"));
 		sleepTime = Integer.valueOf(context.getCurrentXmlTest().getParameter("sleepTime"));
-		waitMillisecondsForAlert = Integer
-				.valueOf(context.getCurrentXmlTest().getParameter("waitMillisecondsForAlert"));
-		webUrl = context.getCurrentXmlTest().getParameter("testurl");
-		driver.openBrowser(browserName, webUrl, timeOut);
-
+		driver = new SeleniumUtils(browserOrDevice, webUrl, timeOut);
 	}
 
 	/**

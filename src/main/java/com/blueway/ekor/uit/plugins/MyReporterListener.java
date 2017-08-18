@@ -27,12 +27,11 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.collections.Lists;
 import org.testng.internal.Utils;
-import org.testng.log4testng.Logger;
 import org.testng.xml.XmlSuite;
 
-public class MyReporterListener extends MyReporterListenerAdapter {
+import com.blueway.ekor.uit.utils.LoggerUtils;
 
-	private static final Logger L = Logger.getLogger(MyReporterListener.class);
+public class MyReporterListener extends MyReporterListenerAdapter {
 
 	// ~ Instance fields ------------------------------------------------------
 
@@ -54,7 +53,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 		try {
 			m_out = createWriter(outdir);
 		} catch (IOException e) {
-			L.error("output file", e);
+			LoggerUtils.error("output file", e);
 			return;
 		}
 
@@ -70,8 +69,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 	protected PrintWriter createWriter(String outdir) throws IOException {
 		java.util.Date now = new Date();
 		new File(outdir).mkdirs();
-		return new PrintWriter(new BufferedWriter(new FileWriter(new File(
-				outdir, "emailable-FON-report.html"))));
+		return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir, "emailable-FON-report.html"))));
 	}
 
 	/**
@@ -91,16 +89,13 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 				ITestContext testContext = r2.getTestContext();
 				String testName = testContext.getName();
 				m_testIndex = testIndex;
-				resultSummary(suite, testContext.getFailedConfigurations(),
-						testName, "failed", " (configuration methods)");
-				resultSummary(suite, testContext.getFailedTests(), testName,
-						"failed", "");
-				resultSummary(suite, testContext.getSkippedConfigurations(),
-						testName, "skipped", " (configuration methods)");
-				resultSummary(suite, testContext.getSkippedTests(), testName,
-						"skipped", "");
-				resultSummary(suite, testContext.getPassedTests(), testName,
-						"passed", "");
+				resultSummary(suite, testContext.getFailedConfigurations(), testName, "failed",
+						" (configuration methods)");
+				resultSummary(suite, testContext.getFailedTests(), testName, "failed", "");
+				resultSummary(suite, testContext.getSkippedConfigurations(), testName, "skipped",
+						" (configuration methods)");
+				resultSummary(suite, testContext.getSkippedTests(), testName, "skipped", "");
+				resultSummary(suite, testContext.getPassedTests(), testName, "passed", "");
 				testIndex++;
 			}
 		}
@@ -126,8 +121,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 	/**
 	 * @param tests
 	 */
-	private void resultSummary(ISuite suite, IResultMap tests, String testname,
-			String style, String details) {
+	private void resultSummary(ISuite suite, IResultMap tests, String testname, String style, String details) {
 		if (tests.getAllResults().size() > 0) {
 			StringBuffer buff = new StringBuffer();
 			String lastClassName = "";
@@ -139,17 +133,14 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 				ITestClass testClass = method.getTestClass();
 				String className = testClass.getName();
 				if (mq == 0) {
-					String id = (m_testIndex == null ? null : "t"
-							+ Integer.toString(m_testIndex));
+					String id = (m_testIndex == null ? null : "t" + Integer.toString(m_testIndex));
 					titleRow(testname + " &#8212; " + style + details, 5, id);
 					m_testIndex = null;
 				}
 				if (!className.equalsIgnoreCase(lastClassName)) {
 					if (mq > 0) {
 						cq += 1;
-						m_out.print("<tr class=\"" + style
-								+ (cq % 2 == 0 ? "even" : "odd") + "\">"
-								+ "<td");
+						m_out.print("<tr class=\"" + style + (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
 						if (mq > 1) {
 							m_out.print(" rowspan=\"" + mq + "\"");
 						}
@@ -172,31 +163,19 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 				}
 				mq += 1;
 				if (mq > 1) {
-					buff.append("<tr class=\"" + style
-							+ (cq % 2 == 0 ? "odd" : "even") + "\">");
+					buff.append("<tr class=\"" + style + (cq % 2 == 0 ? "odd" : "even") + "\">");
 				}
 				String description = method.getDescription();
-				String testInstanceName = resultSet
-						.toArray(new ITestResult[] {})[0].getTestName();
-				buff.append("<td><a href=\"#m"
-						+ m_methodIndex
-						+ "\">"
-						+ qualifiedName(method)
-						+ " "
-						+ (description != null && description.length() > 0 ? "(\""
-								+ description + "\")"
-								: "")
-						+ "</a>"
-						+ (null == testInstanceName ? "" : "<br>("
-								+ testInstanceName + ")") + "</td>"
-						+ "<td class=\"numi\">" + resultSet.size() + "</td>"
-						+ "<td>" + start + "</td>" + "<td class=\"numi\">"
-						+ (end - start) + "</td>" + "</tr>");
+				String testInstanceName = resultSet.toArray(new ITestResult[] {})[0].getTestName();
+				buff.append("<td><a href=\"#m" + m_methodIndex + "\">" + qualifiedName(method) + " "
+						+ (description != null && description.length() > 0 ? "(\"" + description + "\")" : "") + "</a>"
+						+ (null == testInstanceName ? "" : "<br>(" + testInstanceName + ")") + "</td>"
+						+ "<td class=\"numi\">" + resultSet.size() + "</td>" + "<td>" + start + "</td>"
+						+ "<td class=\"numi\">" + (end - start) + "</td>" + "</tr>");
 			}
 			if (mq > 0) {
 				cq += 1;
-				m_out.print("<tr class=\"" + style
-						+ (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
+				m_out.print("<tr class=\"" + style + (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
 				if (mq > 1) {
 					m_out.print(" rowspan=\"" + mq + "\"");
 				}
@@ -261,9 +240,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 			if (hasThrowable) {
 				boolean wantsMinimalOutput = result.getStatus() == ITestResult.SUCCESS;
 				if (hasReporterOutput) {
-					m_out.print("<h3>"
-							+ (wantsMinimalOutput ? "Expected Exception"
-									: "Failure") + "</h3>");
+					m_out.print("<h3>" + (wantsMinimalOutput ? "Expected Exception" : "Failure") + "</h3>");
 				}
 
 				// Getting first line of the stack trace
@@ -296,8 +273,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 		}
 	}
 
-	private void generateForResult(ITestResult ans, ITestNGMethod method,
-			int resultSetSize) {
+	private void generateForResult(ITestResult ans, ITestNGMethod method, int resultSetSize) {
 		Object[] parameters = ans.getParameters();
 		boolean hasParameters = parameters != null && parameters.length > 0;
 		if (hasParameters) {
@@ -309,8 +285,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 			m_out.println("</tr>");
 			m_out.print("<tr class=\"param stripe\">");
 			for (Object p : parameters) {
-				m_out.println("<td>" + Utils.escapeHtml(Utils.toString(p))
-						+ "</td>");
+				m_out.println("<td>" + Utils.escapeHtml(Utils.toString(p)) + "</td>");
 			}
 			m_out.println("</tr>");
 		}
@@ -339,9 +314,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 			if (hasThrowable) {
 				boolean wantsMinimalOutput = ans.getStatus() == ITestResult.SUCCESS;
 				if (hasReporterOutput) {
-					m_out.println("<h3>"
-							+ (wantsMinimalOutput ? "Expected Exception"
-									: "Failure") + "</h3>");
+					m_out.println("<h3>" + (wantsMinimalOutput ? "Expected Exception" : "Failure") + "</h3>");
 				}
 				generateExceptionReport(exception, method);
 			}
@@ -356,8 +329,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 		}
 	}
 
-	protected void generateExceptionReport(Throwable exception,
-			ITestNGMethod method) {
+	protected void generateExceptionReport(Throwable exception, ITestNGMethod method) {
 		m_out.print("<div class=\"stacktrace\">");
 		m_out.print(Utils.stackTrace(exception, true)[0]);
 		m_out.println("</div>");
@@ -367,8 +339,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 	 * Since the methods will be sorted chronologically, we want to return the
 	 * ITestNGMethod from the invoked methods.
 	 */
-	private Collection<ITestNGMethod> getMethodSet(IResultMap tests,
-			ISuite suite) {
+	private Collection<ITestNGMethod> getMethodSet(IResultMap tests, ISuite suite) {
 		List<IInvokedMethod> r = Lists.newArrayList();
 		List<IInvokedMethod> invokedMethods = suite.getAllInvokedMethods();
 		for (IInvokedMethod im : invokedMethods) {
@@ -470,13 +441,12 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 				summaryCell(overview.getEndDate().toString(), true);
 				m_out.println("</td>");
 
-				time_start = Math.min(overview.getStartDate().getTime(),
-						time_start);
+				time_start = Math.min(overview.getStartDate().getTime(), time_start);
 				time_end = Math.max(overview.getEndDate().getTime(), time_end);
 				summaryCell(
-						formatter.format((overview.getEndDate().getTime() - overview
-								.getStartDate().getTime()) / 1000.)
-								+ " seconds", true);
+						formatter.format((overview.getEndDate().getTime() - overview.getStartDate().getTime()) / 1000.)
+								+ " seconds",
+						true);
 				summaryCell(overview.getIncludedGroups());
 				summaryCell(overview.getExcludedGroups());
 				m_out.println("</tr>");
@@ -493,9 +463,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 			summaryCell(" ", true);
 			summaryCell(" ", true);
 			summaryCell(" ", true);
-			summaryCell(
-					formatter.format(((time_end - time_start) / 1000.) / 60.)
-							+ " minutes", true);
+			summaryCell(formatter.format(((time_end - time_start) / 1000.) / 60.) + " minutes", true);
 			m_out.println("<td colspan=\"3\">&nbsp;</td></tr>");
 		}
 		m_out.println("</table>");
@@ -510,16 +478,14 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 	}
 
 	private void summaryCell(String v, boolean isgood) {
-		m_out.print("<td class=\"numi" + (isgood ? "" : "_attn") + "\">" + v
-				+ "</td>");
+		m_out.print("<td class=\"numi" + (isgood ? "" : "_attn") + "\">" + v + "</td>");
 	}
 
 	private void startSummaryRow(String label) {
 		m_row += 1;
-		m_out.print("<tr"
-				+ (m_row % 2 == 0 ? " class=\"stripe\"" : "")
-				+ "><td style=\"text-align:left;padding-right:2em\"><a href=\"#t"
-				+ m_testIndex + "\">" + label + "</a>" + "</td>");
+		m_out.print("<tr" + (m_row % 2 == 0 ? " class=\"stripe\"" : "")
+				+ "><td style=\"text-align:left;padding-right:2em\"><a href=\"#t" + m_testIndex + "\">" + label + "</a>"
+				+ "</td>");
 	}
 
 	private void summaryCell(int v, int maxexpected) {
@@ -528,8 +494,7 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 
 	private void tableStart(String cssclass, String id) {
 		m_out.println("<table cellspacing=\"0\" cellpadding=\"0\""
-				+ (cssclass != null ? " class=\"" + cssclass + "\""
-						: " style=\"padding-bottom:2em\"")
+				+ (cssclass != null ? " class=\"" + cssclass + "\"" : " style=\"padding-bottom:2em\"")
 				+ (id != null ? " id=\"" + id + "\"" : "") + ">");
 		m_row = 0;
 	}
@@ -553,7 +518,8 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 
 	/** Starts HTML stream */
 	protected void startHtml(PrintWriter out) {
-		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
+		out.println(
+				"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
 		out.println("<head>");
 		out.println("<title>Hector Flores - TestNG Report</title>");
@@ -581,7 +547,8 @@ public class MyReporterListener extends MyReporterListenerAdapter {
 
 	/** Finishes HTML stream */
 	protected void endHtml(PrintWriter out) {
-		// out.println("<center> Report customized by Hector Flores [hectorfb@gmail.com] </center>");
+		// out.println("<center> Report customized by Hector Flores
+		// [hectorfb@gmail.com] </center>");
 		out.println("</body></html>");
 	}
 

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,51 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">16 methods,   16 passed</span>
+                    <span class="method-stats">10 methods, 7 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!})">login({CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!})">login({CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!})">login({CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,82 +145,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_001" hash-for-method="login({CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success})">login({CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!})">login({CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=1001...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=1001...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=1...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=1...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10...)">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.bet.Bet_001" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.blueway.ekor.uit.testcase.login.Login_002" hash-for-method="login({CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!})">login({CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -191,137 +170,148 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.blueway.ekor.uit.testcase.bet.Bet_001</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.blueway.ekor.uit.testcase.login.Login_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10011001, CASENAME=成功投注T5_XX, TYPE=T5, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_R, TYPE=4D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=10011001, CASENAME=成功投注T6, TYPE=T6, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=10011001, CASENAME=成功投注T6_X, TYPE=T6, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_B, TYPE=4D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10011001, CASENAME=成功投注T5_X, TYPE=T5, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D_R, TYPE=3D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=1001...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=1001...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D, TYPE=3D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_XX, TYPE=4D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=10011001, CASENAME=成功投注T6_XX, TYPE=T6, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_X, TYPE=4D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D, TYPE=4D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10011001, CASENAME=成功投注T5, TYPE=T5, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=1...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=1...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=10011001, CASENAME=成功投注T5_B, TYPE=T5, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10...)">
-                  </a> <!-- bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10...) -->
-                  <span class="method-name">bet</span>
-                  <span class="parameters">({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D_X, TYPE=3D, EXP_RESULT=success})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
+                  <a name="login({CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!})">
+                  </a> <!-- login({CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!}) -->
                   <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【密码错误!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">
+                  </a> <!-- login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">
+                  </a> <!-- login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">
+                  </a> <!-- login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!})">
+                  </a> <!-- login({CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})">
+                  </a> <!-- login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!})">
+                  </a> <!-- login({CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 预期的文字是 【密码错误!】 ，实际结果 【*验证码错误!!】
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.blueway.ekor.uit.testcase.login.Login_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success})">
+                  </a> <!-- login({CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.blueway.ekor.uit.testcase.login.Login_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!})">
+                  </a> <!-- login({CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!})">
+                  </a> <!-- login({CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!}) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -340,18 +330,19 @@
   &lt;parameter name=&quot;sleepTime&quot; value=&quot;800&quot;/&gt;
   &lt;parameter name=&quot;testurl&quot; value=&quot;http://192.168.8.34:8080/4d_width&quot;/&gt;
   &lt;parameter name=&quot;waitMillisecondsForAlert&quot; value=&quot;40000&quot;/&gt;
+  &lt;parameter name=&quot;device&quot; value=&quot;web&quot;/&gt;
   &lt;parameter name=&quot;timeOut&quot; value=&quot;20&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.blueway.ekor.uit.plugins.CustomReportListener&quot;/&gt;
     &lt;listener class-name=&quot;com.blueway.ekor.uit.plugins.RetryListener&quot;/&gt;
-    &lt;listener class-name=&quot;com.blueway.ekor.uit.plugins.PowerEmailableReporter&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;Login&quot;&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;com.blueway.ekor.uit.testcase.bet&quot;/&gt;
+      &lt;package name=&quot;com.blueway.ekor.uit.testcase.login&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.blueway.ekor.uit.testcase.bet.Bet_001&quot;/&gt;
+      &lt;class name=&quot;com.blueway.ekor.uit.testcase.login.Login_001&quot;/&gt;
+      &lt;class name=&quot;com.blueway.ekor.uit.testcase.login.Login_002&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -365,7 +356,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login (1 class)</span>
+                <span class="test-name">Login (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -391,76 +382,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(16);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'bet')
-data.setCell(0, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(0, 3, 6175);
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(0, 3, 447);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'bet')
-data.setCell(1, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(1, 3, 1607);
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'com.blueway.ekor.uit.testcase.login.Login_001')
+data.setCell(1, 3, 413);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'bet')
-data.setCell(2, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(2, 3, 1168);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(2, 3, 401);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'bet')
-data.setCell(3, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(3, 3, 1152);
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(3, 3, 380);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'bet')
-data.setCell(4, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(4, 3, 1053);
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(4, 3, 375);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'bet')
-data.setCell(5, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(5, 3, 1035);
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(5, 3, 365);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'bet')
-data.setCell(6, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(6, 3, 1018);
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(6, 3, 361);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'bet')
-data.setCell(7, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(7, 3, 937);
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(7, 3, 358);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'login')
-data.setCell(8, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(8, 3, 933);
+data.setCell(8, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(8, 3, 357);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'bet')
-data.setCell(9, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(9, 3, 881);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'bet')
-data.setCell(10, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(10, 3, 801);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'bet')
-data.setCell(11, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(11, 3, 680);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'bet')
-data.setCell(12, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(12, 3, 666);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'bet')
-data.setCell(13, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(13, 3, 638);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'bet')
-data.setCell(14, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(14, 3, 584);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'bet')
-data.setCell(15, 2, 'com.blueway.ekor.uit.testcase.bet.Bet_001')
-data.setCell(15, 3, 535);
+data.setCell(9, 1, 'login')
+data.setCell(9, 2, 'com.blueway.ekor.uit.testcase.login.Login_002')
+data.setCell(9, 3, 353);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -471,6 +438,24 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RunCount=2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RunCount=3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RunCount=4</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -486,78 +471,79 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.blueway.ekor.uit.testcase.bet.Bet_001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.blueway.ekor.uit.testcase.login.Login_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">startTest(org.testng.TestRunner@30b19518)</span>
+                <span class="method-name">startTest(org.testng.TestRunner@7e990ed7)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">6025 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=1...)</span>
-                <span class="method-start">7070 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=1001...)</span>
-                <span class="method-start">8238 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10...)</span>
-                <span class="method-start">9039 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=1...)</span>
-                <span class="method-start">9678 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=...)</span>
-                <span class="method-start">10345 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=1...)</span>
-                <span class="method-start">11381 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=1...)</span>
-                <span class="method-start">12435 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=...)</span>
-                <span class="method-start">13588 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=...)</span>
-                <span class="method-start">19764 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10...)</span>
-                <span class="method-start">20646 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10...)</span>
-                <span class="method-start">21583 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10...)</span>
-                <span class="method-start">22602 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=1...)</span>
-                <span class="method-start">23138 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=1...)</span>
-                <span class="method-start">24745 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">bet({DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=1...)</span>
-                <span class="method-start">25330 ms</span>
+                <span class="method-name">login({CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success})</span>
+                <span class="method-start">5518 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">26077 ms</span>
+                <span class="method-start">5984 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.blueway.ekor.uit.testcase.login.Login_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startTest(org.testng.TestRunner@7e990ed7)</span>
+                <span class="method-start">7418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                <span class="method-start">12489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                <span class="method-start">12995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                <span class="method-start">13384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!})</span>
+                <span class="method-start">13773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!})</span>
+                <span class="method-start">14135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!})</span>
+                <span class="method-start">14537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login({CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!})</span>
+                <span class="method-start">14896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login({CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!})</span>
+                <span class="method-start">15277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login({CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!})</span>
+                <span class="method-start">15652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">16052 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

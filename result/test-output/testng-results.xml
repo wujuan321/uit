@@ -1,197 +1,432 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="16" passed="16">
+<testng-results skipped="0" failed="7" total="10" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=3]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=4]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="27558" started-at="2017-08-03T07:10:51Z" finished-at="2017-08-03T07:11:19Z">
+  <suite name="Suite" duration-ms="17298" started-at="2017-08-18T07:54:15Z" finished-at="2017-08-18T07:54:33Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="27558" started-at="2017-08-03T07:10:51Z" finished-at="2017-08-03T07:11:19Z">
-      <class name="com.blueway.ekor.uit.testcase.bet.Bet_001">
-        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="startTest" is-config="true" duration-ms="6023" started-at="2017-08-03T15:10:51Z" finished-at="2017-08-03T15:10:57Z">
+    <test name="Login" duration-ms="17298" started-at="2017-08-18T07:54:15Z" finished-at="2017-08-18T07:54:33Z">
+      <class name="com.blueway.ekor.uit.testcase.login.Login_002">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="startTest" is-config="true" duration-ms="5011" started-at="2017-08-18T15:54:23Z" finished-at="2017-08-18T15:54:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30b19518]]>
+                <![CDATA[org.testng.TestRunner@7e990ed7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="login" duration-ms="933" started-at="2017-08-03T15:10:57Z" finished-at="2017-08-03T15:10:58Z">
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="447" started-at="2017-08-18T15:54:28Z" data-provider="testData" finished-at="2017-08-18T15:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="353" started-at="2017-08-18T15:54:28Z" data-provider="testData" finished-at="2017-08-18T15:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="357" started-at="2017-08-18T15:54:29Z" data-provider="testData" finished-at="2017-08-18T15:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="361" started-at="2017-08-18T15:54:29Z" data-provider="testData" finished-at="2017-08-18T15:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, CASEID=T001, PASSWORD=8888, USERNAME=, CASENAME=用户名为空, EXP_RESULT=此用户不存在!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1168" started-at="2017-08-03T15:10:58Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:00Z">
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="401" started-at="2017-08-18T15:54:29Z" data-provider="testData" finished-at="2017-08-18T15:54:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1004, SMALL=0.1, CASEID=T001, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D, TYPE=4D, EXP_RESULT=success}]]>
+                <![CDATA[{CODE=0000, CASEID=T002, PASSWORD=8888, USERNAME=abcd001, CASENAME=用户名不存在, EXP_RESULT=此用户不存在!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【此用户不存在!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="358" started-at="2017-08-18T15:54:30Z" data-provider="testData" finished-at="2017-08-18T15:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, CASEID=T003, PASSWORD=, USERNAME=10011001, CASENAME=密码为空, EXP_RESULT=密码错误!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【密码错误!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【密码错误!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="380" started-at="2017-08-18T15:54:30Z" data-provider="testData" finished-at="2017-08-18T15:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, CASEID=T004, PASSWORD=88888, USERNAME=10011001, CASENAME=密码错误, EXP_RESULT=密码错误!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[预期的文字是 【密码错误!】 ，实际结果 【*验证码错误!!】]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 预期的文字是 【密码错误!】 ，实际结果 【*验证码错误!!】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.blueway.ekor.uit.utils.SeleniumUtils.isTextCorrect(SeleniumUtils.java:187)
+	at com.blueway.ekor.uit.pages.impl.LoginPage.checkUserName(LoginPage.java:35)
+	at com.blueway.ekor.uit.testcase.login.Login_002.login(Login_002.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="375" started-at="2017-08-18T15:54:31Z" data-provider="testData" finished-at="2017-08-18T15:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码为空, EXP_RESULT=*验证码错误!!}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="801" started-at="2017-08-03T15:11:00Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:00Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="login" duration-ms="365" started-at="2017-08-18T15:54:31Z" data-provider="testData" finished-at="2017-08-18T15:54:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0, ISJP=Y, NUMBER=103, SMALL=0.1, CASEID=T002, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D, TYPE=3D, EXP_RESULT=success}]]>
+                <![CDATA[{CODE=00000, CASEID=T005, PASSWORD=8888, USERNAME=10011001, CASENAME=密码码错误, EXP_RESULT=*验证码错误!!}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="638" started-at="2017-08-03T15:11:00Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005, SMALL=0.1, CASEID=T003, DRAW=T5, USER=10011001, CASENAME=成功投注T5, TYPE=T5, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="666" started-at="2017-08-03T15:11:01Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100006, SMALL=0.1, CASEID=T004, DRAW=T6, USER=10011001, CASENAME=成功投注T6, TYPE=T6, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1035" started-at="2017-08-03T15:11:02Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001R, SMALL=0.1, CASEID=T005, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_R, TYPE=4D, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1053" started-at="2017-08-03T15:11:03Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100X, SMALL=0.1, CASEID=T006, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_X, TYPE=4D, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1152" started-at="2017-08-03T15:11:04Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10XX, SMALL=0.1, CASEID=T007, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_XX, TYPE=4D, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="6175" started-at="2017-08-03T15:11:05Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1001B, SMALL=0.1, CASEID=T008, DRAW=MKTS, USER=10011001, CASENAME=成功投注4D_B, TYPE=4D, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="881" started-at="2017-08-03T15:11:11Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1003R, SMALL=0.1, CASEID=T009, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D_R, TYPE=3D, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="937" started-at="2017-08-03T15:11:12Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10X, SMALL=0.1, CASEID=T010, DRAW=MKTS, USER=10011001, CASENAME=成功投注3D_X, TYPE=3D, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1018" started-at="2017-08-03T15:11:13Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000X, SMALL=0.1, CASEID=T011, DRAW=T5, USER=10011001, CASENAME=成功投注T5_X, TYPE=T5, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="535" started-at="2017-08-03T15:11:14Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=100XX, SMALL=0.1, CASEID=T012, DRAW=T5, USER=10011001, CASENAME=成功投注T5_XX, TYPE=T5, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="1607" started-at="2017-08-03T15:11:14Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10005B, SMALL=0.1, CASEID=T013, DRAW=T5, USER=10011001, CASENAME=成功投注T5_B, TYPE=T5, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="584" started-at="2017-08-03T15:11:16Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=10000X, SMALL=0.1, CASEID=T014, DRAW=T6, USER=10011001, CASENAME=成功投注T6_X, TYPE=T6, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="bet(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="bet" duration-ms="680" started-at="2017-08-03T15:11:17Z" data-provider="testData" depends-on-methods="com.blueway.ekor.uit.testcase.bet.Bet_001.login" finished-at="2017-08-03T15:11:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DRAWDATE=08/01/2017, BIG=0.1, A=0.1, ISJP=Y, NUMBER=1000XX, SMALL=0.1, CASEID=T015, DRAW=T6, USER=10011001, CASENAME=成功投注T6_XX, TYPE=T6, EXP_RESULT=success}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bet -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.blueway.ekor.uit.testcase.bet.Bet_001@5cc7c2a6]" name="endTest" is-config="true" duration-ms="1476" started-at="2017-08-03T15:11:17Z" finished-at="2017-08-03T15:11:19Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_002@b97c004]" name="endTest" is-config="true" duration-ms="1239" started-at="2017-08-18T15:54:31Z" finished-at="2017-08-18T15:54:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.blueway.ekor.uit.testcase.bet.Bet_001 -->
+      </class> <!-- com.blueway.ekor.uit.testcase.login.Login_002 -->
+      <class name="com.blueway.ekor.uit.testcase.login.Login_001">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_001@97e1986]" name="startTest" is-config="true" duration-ms="5410" started-at="2017-08-18T15:54:15Z" finished-at="2017-08-18T15:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e990ed7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_001@97e1986]" name="login" duration-ms="413" started-at="2017-08-18T15:54:21Z" data-provider="testData" finished-at="2017-08-18T15:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CODE=0000, PASSWORD=8888, USERNAME=admin932, EXP_RESULT=success}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.blueway.ekor.uit.testcase.login.Login_001@97e1986]" name="endTest" is-config="true" duration-ms="1433" started-at="2017-08-18T15:54:21Z" finished-at="2017-08-18T15:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.blueway.ekor.uit.testcase.login.Login_001 -->
     </test> <!-- Login -->
   </suite> <!-- Suite -->
 </testng-results>
